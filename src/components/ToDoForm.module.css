@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 3.375rem;
+    margin-top: calc(0px - 1.6875rem);
+}
+
+.wrapper input {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border-radius: 8px;
+    border: transparent;
+    width: 39.875rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+
+.wrapper button {
+    background: var(--blue-500);
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: transparent;
+    width: 5.625rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.wrapper button:hover {
+    background: var(--blue-300);
+}
